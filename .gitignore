@@ -88,3 +88,191 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+ChartsSample/ChartsSample.xcworkspace/contents.xcworkspacedata
+ChartsSample/ChartsSample.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+ChartsSample/Pods/Manifest.lock
+ChartsSample/Pods/Charts/LICENSE
+ChartsSample/Pods/Charts/README.md
+ChartsSample/Pods/Charts/Source/Charts/Animation/Animator.swift
+ChartsSample/Pods/Charts/Source/Charts/Animation/ChartAnimationEasing.swift
+ChartsSample/Pods/Charts/Source/Charts/Charts/BarChartView.swift
+ChartsSample/Pods/Charts/Source/Charts/Charts/BarLineChartViewBase.swift
+ChartsSample/Pods/Charts/Source/Charts/Charts/BubbleChartView.swift
+ChartsSample/Pods/Charts/Source/Charts/Charts/CandleStickChartView.swift
+ChartsSample/Pods/Charts/Source/Charts/Charts/ChartViewBase.swift
+ChartsSample/Pods/Charts/Source/Charts/Charts/CombinedChartView.swift
+ChartsSample/Pods/Charts/Source/Charts/Charts/HorizontalBarChartView.swift
+ChartsSample/Pods/Charts/Source/Charts/Charts/LineChartView.swift
+ChartsSample/Pods/Charts/Source/Charts/Charts/PieChartView.swift
+ChartsSample/Pods/Charts/Source/Charts/Charts/PieRadarChartViewBase.swift
+ChartsSample/Pods/Charts/Source/Charts/Charts/RadarChartView.swift
+ChartsSample/Pods/Charts/Source/Charts/Charts/ScatterChartView.swift
+ChartsSample/Pods/Charts/Source/Charts/Components/AxisBase.swift
+ChartsSample/Pods/Charts/Source/Charts/Components/ChartLimitLine.swift
+ChartsSample/Pods/Charts/Source/Charts/Components/ComponentBase.swift
+ChartsSample/Pods/Charts/Source/Charts/Components/Description.swift
+ChartsSample/Pods/Charts/Source/Charts/Components/IMarker.swift
+ChartsSample/Pods/Charts/Source/Charts/Components/Legend.swift
+ChartsSample/Pods/Charts/Source/Charts/Components/LegendEntry.swift
+ChartsSample/Pods/Charts/Source/Charts/Components/MarkerImage.swift
+ChartsSample/Pods/Charts/Source/Charts/Components/MarkerView.swift
+ChartsSample/Pods/Charts/Source/Charts/Components/XAxis.swift
+ChartsSample/Pods/Charts/Source/Charts/Components/YAxis.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/ChartBaseDataSet.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/BarChartData.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/BarChartDataEntry.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/BarChartDataSet.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/BarLineScatterCandleBubbleChartData.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/BarLineScatterCandleBubbleChartDataSet.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/BubbleChartData.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/BubbleChartDataEntry.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/BubbleChartDataSet.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/CandleChartData.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/CandleChartDataEntry.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/CandleChartDataSet.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/ChartData.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/ChartDataEntry.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/ChartDataEntryBase.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/ChartDataSet.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/CombinedChartData.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/LineChartData.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/LineChartDataSet.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/LineRadarChartDataSet.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/LineScatterCandleRadarChartDataSet.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/PieChartData.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/PieChartDataEntry.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/PieChartDataSet.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/RadarChartData.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/RadarChartDataEntry.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/RadarChartDataSet.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/ScatterChartData.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Implementations/Standard/ScatterChartDataSet.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Interfaces/IBarChartDataSet.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Interfaces/IBarLineScatterCandleBubbleChartDataSet.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Interfaces/IBubbleChartDataSet.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Interfaces/ICandleChartDataSet.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Interfaces/IChartDataSet.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Interfaces/ILineChartDataSet.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Interfaces/ILineRadarChartDataSet.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Interfaces/ILineScatterCandleRadarChartDataSet.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Interfaces/IPieChartDataSet.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Interfaces/IRadarChartDataSet.swift
+ChartsSample/Pods/Charts/Source/Charts/Data/Interfaces/IScatterChartDataSet.swift
+ChartsSample/Pods/Charts/Source/Charts/Filters/DataApproximator+N.swift
+ChartsSample/Pods/Charts/Source/Charts/Filters/DataApproximator.swift
+ChartsSample/Pods/Charts/Source/Charts/Formatters/DefaultAxisValueFormatter.swift
+ChartsSample/Pods/Charts/Source/Charts/Formatters/DefaultFillFormatter.swift
+ChartsSample/Pods/Charts/Source/Charts/Formatters/DefaultValueFormatter.swift
+ChartsSample/Pods/Charts/Source/Charts/Formatters/IAxisValueFormatter.swift
+ChartsSample/Pods/Charts/Source/Charts/Formatters/IFillFormatter.swift
+ChartsSample/Pods/Charts/Source/Charts/Formatters/IndexAxisValueFormatter.swift
+ChartsSample/Pods/Charts/Source/Charts/Formatters/IValueFormatter.swift
+ChartsSample/Pods/Charts/Source/Charts/Highlight/BarHighlighter.swift
+ChartsSample/Pods/Charts/Source/Charts/Highlight/ChartHighlighter.swift
+ChartsSample/Pods/Charts/Source/Charts/Highlight/CombinedHighlighter.swift
+ChartsSample/Pods/Charts/Source/Charts/Highlight/Highlight.swift
+ChartsSample/Pods/Charts/Source/Charts/Highlight/HorizontalBarHighlighter.swift
+ChartsSample/Pods/Charts/Source/Charts/Highlight/IHighlighter.swift
+ChartsSample/Pods/Charts/Source/Charts/Highlight/PieHighlighter.swift
+ChartsSample/Pods/Charts/Source/Charts/Highlight/PieRadarHighlighter.swift
+ChartsSample/Pods/Charts/Source/Charts/Highlight/RadarHighlighter.swift
+ChartsSample/Pods/Charts/Source/Charts/Highlight/Range.swift
+ChartsSample/Pods/Charts/Source/Charts/Interfaces/BarChartDataProvider.swift
+ChartsSample/Pods/Charts/Source/Charts/Interfaces/BarLineScatterCandleBubbleChartDataProvider.swift
+ChartsSample/Pods/Charts/Source/Charts/Interfaces/BubbleChartDataProvider.swift
+ChartsSample/Pods/Charts/Source/Charts/Interfaces/CandleChartDataProvider.swift
+ChartsSample/Pods/Charts/Source/Charts/Interfaces/ChartDataProvider.swift
+ChartsSample/Pods/Charts/Source/Charts/Interfaces/CombinedChartDataProvider.swift
+ChartsSample/Pods/Charts/Source/Charts/Interfaces/LineChartDataProvider.swift
+ChartsSample/Pods/Charts/Source/Charts/Interfaces/ScatterChartDataProvider.swift
+ChartsSample/Pods/Charts/Source/Charts/Jobs/AnimatedMoveViewJob.swift
+ChartsSample/Pods/Charts/Source/Charts/Jobs/AnimatedViewPortJob.swift
+ChartsSample/Pods/Charts/Source/Charts/Jobs/AnimatedZoomViewJob.swift
+ChartsSample/Pods/Charts/Source/Charts/Jobs/MoveViewJob.swift
+ChartsSample/Pods/Charts/Source/Charts/Jobs/ViewPortJob.swift
+ChartsSample/Pods/Charts/Source/Charts/Jobs/ZoomViewJob.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/AxisRendererBase.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/BarChartRenderer.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/BarLineScatterCandleBubbleRenderer.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/BubbleChartRenderer.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/CandleStickChartRenderer.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/ChartDataRendererBase.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/CombinedChartRenderer.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/HorizontalBarChartRenderer.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/LegendRenderer.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/LineChartRenderer.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/LineRadarRenderer.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/LineScatterCandleRadarRenderer.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/PieChartRenderer.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/RadarChartRenderer.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/Renderer.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/ScatterChartRenderer.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/XAxisRenderer.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/XAxisRendererHorizontalBarChart.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/XAxisRendererRadarChart.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/YAxisRenderer.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/YAxisRendererHorizontalBarChart.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/YAxisRendererRadarChart.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/Scatter/ChevronDownShapeRenderer.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/Scatter/ChevronUpShapeRenderer.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/Scatter/CircleShapeRenderer.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/Scatter/CrossShapeRenderer.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/Scatter/IShapeRenderer.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/Scatter/SquareShapeRenderer.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/Scatter/TriangleShapeRenderer.swift
+ChartsSample/Pods/Charts/Source/Charts/Renderers/Scatter/XShapeRenderer.swift
+ChartsSample/Pods/Charts/Source/Charts/Utils/ChartColorTemplates.swift
+ChartsSample/Pods/Charts/Source/Charts/Utils/ChartUtils.swift
+ChartsSample/Pods/Charts/Source/Charts/Utils/Fill.swift
+ChartsSample/Pods/Charts/Source/Charts/Utils/Platform+Accessibility.swift
+ChartsSample/Pods/Charts/Source/Charts/Utils/Platform+Color.swift
+ChartsSample/Pods/Charts/Source/Charts/Utils/Platform+Gestures.swift
+ChartsSample/Pods/Charts/Source/Charts/Utils/Platform+Graphics.swift
+ChartsSample/Pods/Charts/Source/Charts/Utils/Platform+Touch Handling.swift
+ChartsSample/Pods/Charts/Source/Charts/Utils/Platform.swift
+ChartsSample/Pods/Charts/Source/Charts/Utils/Transformer.swift
+ChartsSample/Pods/Charts/Source/Charts/Utils/TransformerHorizontalBarChart.swift
+ChartsSample/Pods/Charts/Source/Charts/Utils/ViewPortHandler.swift
+ChartsSample/Pods/Local Podspecs/Charts.podspec.json
+ChartsSample/Pods/Pods.xcodeproj/project.pbxproj
+ChartsSample/Pods/Target Support Files/Charts/Charts-dummy.m
+ChartsSample/Pods/Target Support Files/Charts/Charts-Info.plist
+ChartsSample/Pods/Target Support Files/Charts/Charts-prefix.pch
+ChartsSample/Pods/Target Support Files/Charts/Charts-umbrella.h
+ChartsSample/Pods/Target Support Files/Charts/Charts.debug.xcconfig
+ChartsSample/Pods/Target Support Files/Charts/Charts.modulemap
+ChartsSample/Pods/Target Support Files/Charts/Charts.release.xcconfig
+ChartsSample/Pods/Target Support Files/Pods-ChartsSample/Pods-ChartsSample-acknowledgements.markdown
+ChartsSample/Pods/Target Support Files/Pods-ChartsSample/Pods-ChartsSample-acknowledgements.plist
+ChartsSample/Pods/Target Support Files/Pods-ChartsSample/Pods-ChartsSample-dummy.m
+ChartsSample/Pods/Target Support Files/Pods-ChartsSample/Pods-ChartsSample-frameworks-Debug-input-files.xcfilelist
+ChartsSample/Pods/Target Support Files/Pods-ChartsSample/Pods-ChartsSample-frameworks-Debug-output-files.xcfilelist
+ChartsSample/Pods/Target Support Files/Pods-ChartsSample/Pods-ChartsSample-frameworks-Release-input-files.xcfilelist
+ChartsSample/Pods/Target Support Files/Pods-ChartsSample/Pods-ChartsSample-frameworks-Release-output-files.xcfilelist
+ChartsSample/Pods/Target Support Files/Pods-ChartsSample/Pods-ChartsSample-frameworks.sh
+ChartsSample/Pods/Target Support Files/Pods-ChartsSample/Pods-ChartsSample-Info.plist
+ChartsSample/Pods/Target Support Files/Pods-ChartsSample/Pods-ChartsSample-umbrella.h
+ChartsSample/Pods/Target Support Files/Pods-ChartsSample/Pods-ChartsSample.debug.xcconfig
+ChartsSample/Pods/Target Support Files/Pods-ChartsSample/Pods-ChartsSample.modulemap
+ChartsSample/Pods/Target Support Files/Pods-ChartsSample/Pods-ChartsSample.release.xcconfig
+ChartsSample/Pods/Target Support Files/Pods-ChartsSample-ChartsSampleUITests/Pods-ChartsSample-ChartsSampleUITests-acknowledgements.markdown
+ChartsSample/Pods/Target Support Files/Pods-ChartsSample-ChartsSampleUITests/Pods-ChartsSample-ChartsSampleUITests-acknowledgements.plist
+ChartsSample/Pods/Target Support Files/Pods-ChartsSample-ChartsSampleUITests/Pods-ChartsSample-ChartsSampleUITests-dummy.m
+ChartsSample/Pods/Target Support Files/Pods-ChartsSample-ChartsSampleUITests/Pods-ChartsSample-ChartsSampleUITests-frameworks-Debug-input-files.xcfilelist
+ChartsSample/Pods/Target Support Files/Pods-ChartsSample-ChartsSampleUITests/Pods-ChartsSample-ChartsSampleUITests-frameworks-Debug-output-files.xcfilelist
+ChartsSample/Pods/Target Support Files/Pods-ChartsSample-ChartsSampleUITests/Pods-ChartsSample-ChartsSampleUITests-frameworks-Release-input-files.xcfilelist
+ChartsSample/Pods/Target Support Files/Pods-ChartsSample-ChartsSampleUITests/Pods-ChartsSample-ChartsSampleUITests-frameworks-Release-output-files.xcfilelist
+ChartsSample/Pods/Target Support Files/Pods-ChartsSample-ChartsSampleUITests/Pods-ChartsSample-ChartsSampleUITests-frameworks.sh
+ChartsSample/Pods/Target Support Files/Pods-ChartsSample-ChartsSampleUITests/Pods-ChartsSample-ChartsSampleUITests-Info.plist
+ChartsSample/Pods/Target Support Files/Pods-ChartsSample-ChartsSampleUITests/Pods-ChartsSample-ChartsSampleUITests-umbrella.h
+ChartsSample/Pods/Target Support Files/Pods-ChartsSample-ChartsSampleUITests/Pods-ChartsSample-ChartsSampleUITests.debug.xcconfig
+ChartsSample/Pods/Target Support Files/Pods-ChartsSample-ChartsSampleUITests/Pods-ChartsSample-ChartsSampleUITests.modulemap
+ChartsSample/Pods/Target Support Files/Pods-ChartsSample-ChartsSampleUITests/Pods-ChartsSample-ChartsSampleUITests.release.xcconfig
+ChartsSample/Pods/Target Support Files/Pods-ChartsSampleTests/Pods-ChartsSampleTests-acknowledgements.markdown
+ChartsSample/Pods/Target Support Files/Pods-ChartsSampleTests/Pods-ChartsSampleTests-acknowledgements.plist
+ChartsSample/Pods/Target Support Files/Pods-ChartsSampleTests/Pods-ChartsSampleTests-dummy.m
+ChartsSample/Pods/Target Support Files/Pods-ChartsSampleTests/Pods-ChartsSampleTests-Info.plist
+ChartsSample/Pods/Target Support Files/Pods-ChartsSampleTests/Pods-ChartsSampleTests-umbrella.h
+ChartsSample/Pods/Target Support Files/Pods-ChartsSampleTests/Pods-ChartsSampleTests.debug.xcconfig
+ChartsSample/Pods/Target Support Files/Pods-ChartsSampleTests/Pods-ChartsSampleTests.modulemap
+ChartsSample/Pods/Target Support Files/Pods-ChartsSampleTests/Pods-ChartsSampleTests.release.xcconfig
