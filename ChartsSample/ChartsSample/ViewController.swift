@@ -25,7 +25,6 @@ class ViewController: UIViewController {
     childVC.view.frame = containerView.bounds
 
     containerView.layer.cornerRadius = 25
-//    containerView.backgroundColor = UIColor(displayP3Red: 24, green: 26, blue: 29, alpha: 1)
     containerView.addSubview(childVC.view)
     
     childVC.didMove(toParent: self)
