@@ -16,10 +16,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qd0-CK-j3h">
-                                <rect key="frame" x="16" y="223" width="382" height="450"/>
+                                <rect key="frame" x="16" y="267" width="382" height="362"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="450" id="qj5-dn-xQz"/>
+                                    <constraint firstAttribute="height" constant="362" id="qj5-dn-xQz"/>
                                 </constraints>
                             </view>
                         </subviews>
