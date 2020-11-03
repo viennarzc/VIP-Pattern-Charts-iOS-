@@ -9,6 +9,8 @@ import UIKit
 
 class ChartsContentViewController: UIViewController {
   @IBOutlet weak var containerView: UIView!
+  @IBOutlet weak var segmentedControl: UISegmentedControl!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
 
@@ -20,7 +22,18 @@ class ChartsContentViewController: UIViewController {
     childVC.view.frame = containerView.bounds
     containerView.addSubview(childVC.view)
     childVC.didMove(toParent: self)
-
+    view.layer.cornerRadius = 25
+    
+    segmentedControl.tintColor = .white
+    
+    let font = UIFont.systemFont(ofSize: 18, weight: .medium)
+    
+    let attributes: [NSAttributedString.Key: Any] = [
+        .font: font,
+        .foregroundColor: UIColor.white,
+    ]
+    
+    segmentedControl.setTitleTextAttributes(attributes, for: .normal)
 
   }
 

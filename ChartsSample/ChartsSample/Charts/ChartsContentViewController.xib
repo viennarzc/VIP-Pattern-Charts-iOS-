@@ -3,13 +3,13 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChartsContentViewController" customModule="ChartsSample" customModuleProvider="target">
             <connections>
                 <outlet property="containerView" destination="EwM-Ug-mWB" id="Cay-PB-6rD"/>
+                <outlet property="segmentedControl" destination="6uu-I0-sIO" id="LmM-W8-tC6"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="ehL-yj-rev"/>
             </connections>
         </placeholder>
@@ -18,27 +18,29 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="500"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="6uu-I0-sIO">
-                    <rect key="frame" x="8" y="5" width="398" height="32"/>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="6uu-I0-sIO">
+                    <rect key="frame" x="12" y="12" width="390" height="32"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <segments>
                         <segment title="Lead Trend"/>
                         <segment title="Leads by Vehicle"/>
                     </segments>
+                    <color key="selectedSegmentTintColor" red="0.38823529411764707" green="0.38823529411764707" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </segmentedControl>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EwM-Ug-mWB">
-                    <rect key="frame" x="8" y="44" width="398" height="448"/>
-                    <color key="backgroundColor" systemColor="systemGray3Color"/>
+                    <rect key="frame" x="12" y="51" width="390" height="437"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </view>
             </subviews>
-            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <color key="backgroundColor" red="0.23529411764705882" green="0.25882352941176467" blue="0.28627450980392155" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="6uu-I0-sIO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="5" id="CB6-8e-XhX"/>
-                <constraint firstItem="EwM-Ug-mWB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="Cya-sz-87L"/>
-                <constraint firstAttribute="bottom" secondItem="EwM-Ug-mWB" secondAttribute="bottom" constant="8" id="deh-BX-KaS"/>
-                <constraint firstAttribute="trailing" secondItem="EwM-Ug-mWB" secondAttribute="trailing" constant="8" id="hXj-KY-yn7"/>
-                <constraint firstItem="6uu-I0-sIO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="iuH-Ro-iuv"/>
+                <constraint firstItem="6uu-I0-sIO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="12" id="CB6-8e-XhX"/>
+                <constraint firstItem="EwM-Ug-mWB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="Cya-sz-87L"/>
+                <constraint firstAttribute="bottom" secondItem="EwM-Ug-mWB" secondAttribute="bottom" constant="12" id="deh-BX-KaS"/>
+                <constraint firstAttribute="trailing" secondItem="EwM-Ug-mWB" secondAttribute="trailing" constant="12" id="hXj-KY-yn7"/>
+                <constraint firstItem="6uu-I0-sIO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="iuH-Ro-iuv"/>
                 <constraint firstItem="EwM-Ug-mWB" firstAttribute="top" secondItem="6uu-I0-sIO" secondAttribute="bottom" constant="8" id="njV-JP-qnR"/>
-                <constraint firstAttribute="trailing" secondItem="6uu-I0-sIO" secondAttribute="trailing" constant="8" id="scc-B5-v0L"/>
+                <constraint firstAttribute="trailing" secondItem="6uu-I0-sIO" secondAttribute="trailing" constant="12" id="scc-B5-v0L"/>
             </constraints>
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
@@ -46,12 +48,4 @@
             <point key="canvasLocation" x="137.68115942028987" y="99.776785714285708"/>
         </view>
     </objects>
-    <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGray3Color">
-            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-    </resources>
 </document>
