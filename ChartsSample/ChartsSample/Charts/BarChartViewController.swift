@@ -24,20 +24,27 @@ class BarChartViewController: UIViewController {
       BarChartDataEntry(x: 4, y: 23),
       BarChartDataEntry(x: 5, y: 12),
       ])
+    
+    set.drawValuesEnabled = false
 
-
-
-    barChartView.fitBars = true
-    barChartView.drawBarShadowEnabled = false
     barChartView.drawValueAboveBarEnabled = false
-    barChartView.xAxis.axisLineColor = .clear
-    barChartView.xAxis.gridColor = .clear
-    barChartView.xAxis.labelTextColor = .clear
-    barChartView.leftAxis.gridColor = .clear
-    barChartView.leftAxis.labelTextColor = .clear
-    barChartView.leftAxis.axisLineColor = .clear
-    barChartView.leftAxis.zeroLineColor = .clear
     barChartView.drawGridBackgroundEnabled = false
+    barChartView.chartDescription?.enabled = false
+    barChartView.legend.enabled = false
+    
+    barChartView.xAxis.drawGridLinesEnabled = false
+    barChartView.xAxis.drawLabelsEnabled = false
+    barChartView.xAxis.drawAxisLineEnabled = false
+    
+    barChartView.rightAxis.drawGridLinesEnabled = false
+    barChartView.rightAxis.drawAxisLineEnabled = false
+    barChartView.rightAxis.drawLabelsEnabled = false
+    
+    barChartView.leftAxis.drawAxisLineEnabled = false
+    barChartView.leftAxis.drawGridLinesEnabled = false
+    barChartView.leftAxis.drawLabelsEnabled = false
+    barChartView.backgroundColor = .systemGray6
+    
     
     
     let data = BarChartData(dataSet: set)

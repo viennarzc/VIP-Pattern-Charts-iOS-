@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChartsContentViewController" customModule="ChartsSample" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="EwM-Ug-mWB" id="Cay-PB-6rD"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="ehL-yj-rev"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="500"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="6uu-I0-sIO">
+                    <rect key="frame" x="8" y="5" width="398" height="32"/>
+                    <segments>
+                        <segment title="Lead Trend"/>
+                        <segment title="Leads by Vehicle"/>
+                    </segments>
+                </segmentedControl>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EwM-Ug-mWB">
+                    <rect key="frame" x="8" y="44" width="398" height="448"/>
+                    <color key="backgroundColor" systemColor="systemGray3Color"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="6uu-I0-sIO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="5" id="CB6-8e-XhX"/>
+                <constraint firstItem="EwM-Ug-mWB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="Cya-sz-87L"/>
+                <constraint firstAttribute="bottom" secondItem="EwM-Ug-mWB" secondAttribute="bottom" constant="8" id="deh-BX-KaS"/>
+                <constraint firstAttribute="trailing" secondItem="EwM-Ug-mWB" secondAttribute="trailing" constant="8" id="hXj-KY-yn7"/>
+                <constraint firstItem="6uu-I0-sIO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="iuH-Ro-iuv"/>
+                <constraint firstItem="EwM-Ug-mWB" firstAttribute="top" secondItem="6uu-I0-sIO" secondAttribute="bottom" constant="8" id="njV-JP-qnR"/>
+                <constraint firstAttribute="trailing" secondItem="6uu-I0-sIO" secondAttribute="trailing" constant="8" id="scc-B5-v0L"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="137.68115942028987" y="99.776785714285708"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
