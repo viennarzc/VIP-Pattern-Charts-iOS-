@@ -11,10 +11,12 @@ class ChartsContentViewController: UIViewController {
   @IBOutlet weak var containerView: UIView!
   @IBOutlet weak var segmentedControl: UISegmentedControl!
   
+  private let childVC = ChartsPageViewController(nibName: "ChartsPageViewController", bundle: nil)
+  
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    let childVC = ChartsPageViewController(nibName: "ChartsPageViewController", bundle: nil)
+    
 
     addChild(childVC)
     //Or, you could add auto layout constraint instead of relying on AutoResizing contraints
@@ -39,8 +41,10 @@ class ChartsContentViewController: UIViewController {
 
   override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
-
-
   }
-
+  
+  @IBAction func didTapSegmentedControl(_ sender: UISegmentedControl) {
+    childVC.showChart(of: sender.selectedSegmentIndex)
+  }
+  
 }

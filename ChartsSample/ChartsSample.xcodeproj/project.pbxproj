@@ -17,6 +17,10 @@
 		21905B84254A569300BBCCCB /* BarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21905B83254A569300BBCCCB /* BarChartViewController.xib */; };
 		21A64DC32551603200BDC759 /* BarChartDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A64DC22551603200BDC759 /* BarChartDisplayable.swift */; };
 		21A64DC82551605F00BDC759 /* XAxisLabelFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A64DC72551605F00BDC759 /* XAxisLabelFormatter.swift */; };
+		21D9DF4925523FAD00701406 /* BarChartTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D9DF4825523FAD00701406 /* BarChartTwoViewController.swift */; };
+		21D9DF4E25523FF400701406 /* BarChartTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21D9DF4D25523FF400701406 /* BarChartTwoViewController.xib */; };
+		21D9DF5A25524C0A00701406 /* GenericItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D9DF5825524C0A00701406 /* GenericItemCollectionViewCell.swift */; };
+		21D9DF5B25524C0A00701406 /* GenericItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21D9DF5925524C0A00701406 /* GenericItemCollectionViewCell.xib */; };
 		3CCFC8B881F654A448434C3E /* Pods_ChartsSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327E244AFF76C114111215AD /* Pods_ChartsSampleTests.framework */; };
 		82AB1AA22549498300CFBB2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AB1AA12549498300CFBB2F /* AppDelegate.swift */; };
 		82AB1AA42549498300CFBB2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AB1AA32549498300CFBB2F /* SceneDelegate.swift */; };
@@ -54,6 +58,10 @@
 		21905B83254A569300BBCCCB /* BarChartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BarChartViewController.xib; sourceTree = "<group>"; };
 		21A64DC22551603200BDC759 /* BarChartDisplayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartDisplayable.swift; sourceTree = "<group>"; };
 		21A64DC72551605F00BDC759 /* XAxisLabelFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XAxisLabelFormatter.swift; sourceTree = "<group>"; };
+		21D9DF4825523FAD00701406 /* BarChartTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartTwoViewController.swift; sourceTree = "<group>"; };
+		21D9DF4D25523FF400701406 /* BarChartTwoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BarChartTwoViewController.xib; sourceTree = "<group>"; };
+		21D9DF5825524C0A00701406 /* GenericItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		21D9DF5925524C0A00701406 /* GenericItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GenericItemCollectionViewCell.xib; sourceTree = "<group>"; };
 		327E244AFF76C114111215AD /* Pods_ChartsSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartsSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4635E90F625136E0450AA6EF /* Pods-ChartsSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartsSampleTests.release.xcconfig"; path = "Target Support Files/Pods-ChartsSampleTests/Pods-ChartsSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		6B3C9CC942F8722E0ED766C3 /* Pods-ChartsSample-ChartsSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartsSample-ChartsSampleUITests.release.xcconfig"; path = "Target Support Files/Pods-ChartsSample-ChartsSampleUITests/Pods-ChartsSample-ChartsSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +126,10 @@
 				21905B79254A537C00BBCCCB /* BarChartViewController.swift */,
 				21905B83254A569300BBCCCB /* BarChartViewController.xib */,
 				21A64DC72551605F00BDC759 /* XAxisLabelFormatter.swift */,
+				21D9DF4825523FAD00701406 /* BarChartTwoViewController.swift */,
+				21D9DF4D25523FF400701406 /* BarChartTwoViewController.xib */,
+				21D9DF5825524C0A00701406 /* GenericItemCollectionViewCell.swift */,
+				21D9DF5925524C0A00701406 /* GenericItemCollectionViewCell.xib */,
 			);
 			path = Charts;
 			sourceTree = "<group>";
@@ -321,7 +333,9 @@
 				82AB1AAB2549498600CFBB2F /* Assets.xcassets in Resources */,
 				21905B84254A569300BBCCCB /* BarChartViewController.xib in Resources */,
 				21905B7F254A53DD00BBCCCB /* ChartsPageViewController.xib in Resources */,
+				21D9DF4E25523FF400701406 /* BarChartTwoViewController.xib in Resources */,
 				82AB1AA92549498300CFBB2F /* Main.storyboard in Resources */,
+				21D9DF5B25524C0A00701406 /* GenericItemCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,7 +466,9 @@
 				82AB1AA62549498300CFBB2F /* ViewController.swift in Sources */,
 				82AB1AA22549498300CFBB2F /* AppDelegate.swift in Sources */,
 				21905B75254A52BB00BBCCCB /* ChartsPageViewController.swift in Sources */,
+				21D9DF5A25524C0A00701406 /* GenericItemCollectionViewCell.swift in Sources */,
 				210A2B4E2550FA0700B00942 /* ChartsContentViewController.swift in Sources */,
+				21D9DF4925523FAD00701406 /* BarChartTwoViewController.swift in Sources */,
 				82AB1AA42549498300CFBB2F /* SceneDelegate.swift in Sources */,
 				21A64DC82551605F00BDC759 /* XAxisLabelFormatter.swift in Sources */,
 				21905B7A254A537C00BBCCCB /* BarChartViewController.swift in Sources */,

@@ -10,19 +10,25 @@ import UIKit
 class ChartsPageViewController: UIPageViewController {
   @IBOutlet weak var segmentedControl: UISegmentedControl!
   
+  private let v1 = BarChartViewController(nibName: "BarChartViewController", bundle: nil)
+  private let v2 = BarChartTwoViewController(nibName: "BarChartTwoViewController", bundle: nil)
+  
+  private var controllers = [UIViewController]()
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    let v1 = BarChartViewController(nibName: "BarChartViewController", bundle: nil)
-    let v2 = BarChartViewController(nibName: "BarChartViewController", bundle: nil)
+    controllers = [
+      v1,v2
+    ]
     
-    setViewControllers([v1], direction: .forward, animated: true, completion: nil)
+    
+    setViewControllers([controllers.first!], direction: .forward, animated: true, completion: nil)
     
   }
   
-  @IBAction func didTapSegmentedControl(_ sender: UISegmentedControl) {
-    
-    print(sender.selectedSegmentIndex)
+  func showChart(of number: Int) {
+    setViewControllers([controllers[number]], direction: .forward, animated: false, completion: nil)
   }
   
 }

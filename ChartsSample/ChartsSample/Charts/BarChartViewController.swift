@@ -9,6 +9,8 @@ import UIKit
 import Charts
 
 class BarChartViewController: UIViewController, BarChartDisplayable {
+  var barWidth: Double = 0.3
+  
 
   @IBOutlet weak var barChartView: BarChartView!
 
@@ -17,11 +19,11 @@ class BarChartViewController: UIViewController, BarChartDisplayable {
 
     initialSetup(for: barChartView)
     
-    setupChart()
+    setupChartData()
 
   }
 
-  fileprivate func setupChart() {
+  internal func setupChartData() {
     let set = BarChartDataSet(entries: [
       BarChartDataEntry(x: 1, y: 100),
       BarChartDataEntry(x: 2, y: 200),
@@ -42,11 +44,10 @@ class BarChartViewController: UIViewController, BarChartDisplayable {
 
     barChartView.xAxis.valueFormatter = XAxisLabelFormatter(barLabels: barLabels)
 
-
     set.drawValuesEnabled = false
     set.setColor(.systemOrange)
     let data = BarChartData(dataSet: set)
-    data.barWidth = 0.4
+    data.barWidth = barWidth
     barChartView.data = data
   }
   

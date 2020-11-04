@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BarChartTwoViewController" customModule="ChartsSample" customModuleProvider="target">
+            <connections>
+                <outlet property="barChartView" destination="PDl-um-XRs" id="NSE-Lu-gNw"/>
+                <outlet property="collectionView" destination="wiC-OO-TKI" id="5Lh-Dq-Nlg"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Cn1-Bm-2ga"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="350"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eUw-qu-zyG">
+                    <rect key="frame" x="0.0" y="0.0" width="350" height="350"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PDl-um-XRs" customClass="BarChartView" customModule="Charts">
+                            <rect key="frame" x="0.0" y="0.0" width="350" height="245"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kaq-NG-Cnz">
+                            <rect key="frame" x="0.0" y="245" width="350" height="105"/>
+                            <subviews>
+                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="wiC-OO-TKI">
+                                    <rect key="frame" x="0.0" y="0.0" width="350" height="105"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="8" minimumInteritemSpacing="8" id="0wF-OY-iaO">
+                                        <size key="itemSize" width="128" height="20"/>
+                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </collectionViewFlowLayout>
+                                </collectionView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="wiC-OO-TKI" firstAttribute="top" secondItem="kaq-NG-Cnz" secondAttribute="top" id="Dcb-Lg-91R"/>
+                                <constraint firstAttribute="trailing" secondItem="wiC-OO-TKI" secondAttribute="trailing" id="DuM-5p-2qJ"/>
+                                <constraint firstItem="wiC-OO-TKI" firstAttribute="leading" secondItem="kaq-NG-Cnz" secondAttribute="leading" id="PB8-iv-wLS"/>
+                                <constraint firstAttribute="bottom" secondItem="wiC-OO-TKI" secondAttribute="bottom" id="WbW-rr-2L4"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="kaq-NG-Cnz" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.3" id="7Ad-rc-42k"/>
+                <constraint firstAttribute="trailing" secondItem="eUw-qu-zyG" secondAttribute="trailing" id="bRD-n9-PSi"/>
+                <constraint firstItem="eUw-qu-zyG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="jFO-2j-GKU"/>
+                <constraint firstItem="eUw-qu-zyG" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="lEo-a1-eSi"/>
+                <constraint firstItem="eUw-qu-zyG" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="ui4-Rj-Y5k"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="139" y="104"/>
+        </view>
+    </objects>
+</document>

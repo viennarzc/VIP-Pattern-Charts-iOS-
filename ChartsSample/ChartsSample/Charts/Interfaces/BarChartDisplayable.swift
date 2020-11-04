@@ -10,6 +10,8 @@ import Charts
 
 protocol BarChartDisplayable {
   func initialSetup(for barChartView: BarChartView)
+  func setupChartData()
+  var barWidth: Double { get set }
 
 }
 
